@@ -24,3 +24,8 @@ The more lies included, the harder it is for the RL agent to infer the correct w
 * Various action representations (letters, words, combinations).
 * Training logs and performance tracking using Weights & Biases (WandB).
 
+### Installation
+```bash
+git clone https://github.com/saideepa05/wordle-and-fibble.git
+cd wordle-and-fibble
+
