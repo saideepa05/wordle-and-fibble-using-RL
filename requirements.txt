@@ -1,0 +1,10 @@
+numpy
+torch==1.8.1
+torchvision==0.9.1
+matplotlib
+pandas
+cpprb==10.5.0
+wandb
+tqdm
+scipy
+annoy==1.17.0
