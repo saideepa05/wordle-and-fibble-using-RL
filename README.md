@@ -55,7 +55,7 @@ python wordle_Rlearning.py
 ### Results
 Test Win Rate
 The following graph compares the test and train win rates of various models over time:
-![W B Chart 3_21_2025, 3_35_20 PM](https://github.com/user-attachments/assets/092fc0a2-bcc5-4188-8b6f-172958a40ea6)
-![W B Chart 3_21_2025, 3_35_57 PM](https://github.com/user-attachments/assets/5cf5d16a-f782-4556-8ffa-15988a226330)
+<image src="https://github.com/user-attachments/assets/092fc0a2-bcc5-4188-8b6f-172958a40ea6" width="500" height="300">
+<image src="https://github.com/user-attachments/assets/5cf5d16a-f782-4556-8ffa-15988a226330"  width="500" height="300">
 
 
