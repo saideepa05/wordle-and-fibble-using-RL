@@ -17,7 +17,10 @@ Fibble is a variant of Wordle where one or more hints (letter colors) may be lie
 * Fibble4 → Wordle with 4 lies per game.
 * Fibble5 → Wordle with 5 lies per game.
 The more lies included, the harder it is for the RL agent to infer the correct word.
-
+### How lies are introduced?
+Wordle with lies are introduced by randomly altering the feedback given after a player's guess. Normally, Wordle provides color-coded hints: Green (G) for correct letters in the correct position, Yellow (Y) for correct letters in the wrong position, and Gray (G) for incorrect letters. In Fibble, a set number of lies (e.g., 1 lie in Fibble1, 2 lies in Fibble2, etc.) are introduced by randomly changing non-green tiles to another incorrect value. This means a Yellow (Y) might turn into Gray (G), or a Gray (G) might turn into Yellow (Y) or even Green (G), making the feedback misleading. The game ensures randomness in selecting which tiles to alter while avoiding too many changes to Green (G) tiles to maintain fairness.
+### Why Are Lies Introduced?
+Lies make the game more challenging by forcing players to analyze inconsistencies and strategize beyond direct color feedback. Players must deduce which hints are false by cross-checking multiple guesses, making the game more about logical deduction than simple pattern matching. This adds an element of deception and complexity, turning Wordle into a more strategic puzzle where identifying lies is just as important as finding the correct word. 
 ### Features
 * Implementation of Wordle and Fibble environments.
 * Reinforcement Learning using Q-learning.
