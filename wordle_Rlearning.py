@@ -1,5 +1,5 @@
 # Reference Code: https://github.com/voorhs/wordle-rl
-# View Run At: https://wandb.ai/worldunknown/world/runs/52fpv1be?workspace=user-deepanaidu0501
+# View Run At: https://wandb.ai/worldunknown/world?nw=nwuserdeepanaidu0501
 
 import numpy as np
 import cpprb
