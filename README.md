@@ -54,12 +54,12 @@ python wordle_Rlearning.py
 
 ### Results
 * Win Rate : The following graph compares the test and train win rates of wordle, fibble1, fibble2, fibble3, fibble4, fibble5 over time:
-<image src="https://github.com/user-attachments/assets/092fc0a2-bcc5-4188-8b6f-172958a40ea6" width="430" height="350">
-<image src="https://github.com/user-attachments/assets/5cf5d16a-f782-4556-8ffa-15988a226330"  width="430" height="350">
+<image src="https://github.com/user-attachments/assets/092fc0a2-bcc5-4188-8b6f-172958a40ea6" width="330" height="250">
+<image src="https://github.com/user-attachments/assets/5cf5d16a-f782-4556-8ffa-15988a226330"  width="330" height="250">
 
 * The following graph compares the test and train win rates of fibble2, fibble3, fibble4, fibble5 over time:
-<image src="https://github.com/user-attachments/assets/bb238fac-ddbe-421c-8b78-62b0675d5077" width="430" height="350">
-<image src="https://github.com/user-attachments/assets/c1c7a4ec-dd30-4df4-a12b-422a87d01001" width="430" height="350">
+<image src="https://github.com/user-attachments/assets/bb238fac-ddbe-421c-8b78-62b0675d5077" width="330" height="250">
+<image src="https://github.com/user-attachments/assets/c1c7a4ec-dd30-4df4-a12b-422a87d01001" width="330" height="250">
 
 
 
