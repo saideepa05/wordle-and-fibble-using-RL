@@ -1,5 +1,5 @@
 # wordle-and-fibble
-It is inspired by the reference repo: https://github.com/voorhs/wordle-rl \\
+It is inspired by the reference repo: https://github.com/voorhs/wordle-rl. 
 This project explores reinforcement learning (RL) applied to Wordle and Fibble, 5 letter word-guessing game. The agent learns optimal guessing strategies using deep reinforcement learning techniques.
 The RL agent is trained using Q-learning and various action representations to maximize the win rate. The project compares the performance of different training configurations and learning strategies.
 
@@ -31,11 +31,23 @@ To set up and run the project, follow these steps:
 ```bash
 git clone https://github.com/saideepa05/wordle-and-fibble.git
 cd wordle-and-fibble
+```
 ** Install dependencies
 ```bash
 pip install -r requirements.txt
+```
 ** Run the RL training
 ```bash
 python wordle_Rlearning.py
-
-
+```
+### Training Setup
+* The agent is trained with Q-learning using a custom environment.
+* The training process involves exploration-exploitation trade-offs controlled by an epsilon decay strategy.
+* The model is trained for 9 million episodes with experience replay.
+* The training progress is logged using Weights & Biases (WandB). Below are the links for the wandb.
+**  Wordle- https://wandb.ai/worldunknown/world/runs/52fpv1be?workspace=user-deepanaidu0501
+** Wordle with 1 lie (Fibble1): https://wandb.ai/worldunknown/world/runs/r4fwnt44?workspace=user-deepanaidu0501
+** Wordle with 2 lie (Fibble2): https://wandb.ai/worldunknown/world/runs/x162b2ga?workspace=user-deepanaidu0501
+** wordle with 3 lie (Fibble3): https://wandb.ai/worldunknown/world/runs/xylquk0r?workspace=user-deepanaidu0501
+** Wordle with 4 lie (Fibble4): https://wandb.ai/worldunknown/world/runs/v0zwd0bm?workspace=user-deepanaidu0501
+** Wordle with 5 lie(Fibble5): https://wandb.ai/worldunknown/world/runs/ypankmfa?workspace=user-deepanaidu0501
