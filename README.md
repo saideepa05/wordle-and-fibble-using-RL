@@ -53,8 +53,8 @@ python wordle_Rlearning.py
   * Wordle with 5 lie(Fibble5): https://wandb.ai/worldunknown/world/runs/ypankmfa?workspace=user-deepanaidu0501
 
 ### Results
-Test Win Rate
-The following graph compares the test and train win rates of various models over time:
+* Test Win Rate : 
+The following graph compares the test and train win rates of wordle, fibble1, fibble2, fibble3, fibble4, fibble5 over time:
 <image src="https://github.com/user-attachments/assets/092fc0a2-bcc5-4188-8b6f-172958a40ea6" width="450" height="350">
 <image src="https://github.com/user-attachments/assets/5cf5d16a-f782-4556-8ffa-15988a226330"  width="450" height="350">
 
