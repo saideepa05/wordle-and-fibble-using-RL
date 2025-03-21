@@ -1,7 +1,8 @@
 # wordle-and-fibble
-
+It is inspired by the reference repo: https://github.com/voorhs/wordle-rl \\
 This project explores reinforcement learning (RL) applied to Wordle and Fibble, 5 letter word-guessing game. The agent learns optimal guessing strategies using deep reinforcement learning techniques.
 The RL agent is trained using Q-learning and various action representations to maximize the win rate. The project compares the performance of different training configurations and learning strategies.
+
 
 ### Wordle is a popular word-guessing game where players try to guess a five-letter word within six attempts. After each guess, the game provides feedback on the guessed letters:
 * 🟩 Green → The letter is correct and in the right position.
@@ -25,7 +26,16 @@ The more lies included, the harder it is for the RL agent to infer the correct w
 * Training logs and performance tracking using Weights & Biases (WandB).
 
 ### Installation
+To set up and run the project, follow these steps:
+** Clone the repository
 ```bash
 git clone https://github.com/saideepa05/wordle-and-fibble.git
 cd wordle-and-fibble
+** Install dependencies
+```bash
+pip install -r requirements.txt
+** Run the RL training
+```bash
+python wordle_Rlearning.py
+
 
