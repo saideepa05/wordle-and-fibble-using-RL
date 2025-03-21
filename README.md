@@ -55,6 +55,10 @@ python wordle_Rlearning.py
   * Wordle with 4 lie (Fibble4): https://wandb.ai/worldunknown/world/runs/v0zwd0bm?workspace=user-deepanaidu0501
   * Wordle with 5 lie(Fibble5): https://wandb.ai/worldunknown/world/runs/ypankmfa?workspace=user-deepanaidu0501
 
+* The answers.txt and guesses.txt files serve different purposes:
+  * answers.txt: This file contains the list of possible secret words that the game environment selects from. In the given implementation, the environment picks one secret word from a predefined list of 2,315 words to be guessed by the agent.
+  * guesses.txt: This file contains a larger vocabulary of 12,972 words that the RL model can use as possible guesses. This ensures that the agent has a broader set of words to pick from rather than being restricted to only the words that can be answers.
+
 ### Results
 * Win Rate : The following graph compares the test and train win rates of wordle, fibble1, fibble2, fibble3, fibble4, fibble5 over time:
 <image src="https://github.com/user-attachments/assets/092fc0a2-bcc5-4188-8b6f-172958a40ea6" width="330" height="250">
@@ -64,5 +68,13 @@ python wordle_Rlearning.py
 <image src="https://github.com/user-attachments/assets/bb238fac-ddbe-421c-8b78-62b0675d5077" width="330" height="250">
 <image src="https://github.com/user-attachments/assets/c1c7a4ec-dd30-4df4-a12b-422a87d01001" width="330" height="250">
 
-
+### Results Summary
+* Wordle (Fibble0 - No Lies): Achieved an impressive win rate of 99.8% after 50 minutes of training.
+* Fibble (Wordle with Lies): The model was trained for a much longer period (9 million episodes) due to the added complexity of lies in feedback.
+  * Fibble1 (1 lie per feedback) → 56.82% win rate.
+  * Fibble2 (2 lies per feedback) → 0.43% win rate.
+  * Fibble3 (3 lies per feedback) → 0.27% win rate.
+  * Fibble4 (4 lies per feedback) → 0.16% win rate.
+  * Fibble5 (5 lies per feedback) → 0.29% win rate.
+The slight increase in win rate for Fibble5 compared to Fibble3 and Fibble4 is likely due to the randomization effect of lies reaching an extreme level making the misleading information less structured and therefore less deceptive.
 
