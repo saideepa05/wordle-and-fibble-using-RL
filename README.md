@@ -49,11 +49,11 @@ python wordle_Rlearning.py
 * The model is trained for 9 million episodes with experience replay.
 * The training progress is logged using Weights & Biases (WandB). Below are the links for the wandb.
   *  Wordle: https://wandb.ai/worldunknown/world?nw=nwuserdeepanaidu0501
-  *  Wordle with 1 lie (Fibble1): https://wandb.ai/worldunknown/world/runs/r4fwnt44?workspace=user-deepanaidu0501
-  * Wordle with 2 lie (Fibble2): https://wandb.ai/worldunknown/world/runs/x162b2ga?workspace=user-deepanaidu0501
-  * wordle with 3 lie (Fibble3): https://wandb.ai/worldunknown/world/runs/xylquk0r?workspace=user-deepanaidu0501
-  * Wordle with 4 lie (Fibble4): https://wandb.ai/worldunknown/world/runs/v0zwd0bm?workspace=user-deepanaidu0501
-  * Wordle with 5 lie(Fibble5): https://wandb.ai/worldunknown/world/runs/ypankmfa?workspace=user-deepanaidu0501
+  *  Wordle with 1 lie (Fibble1): https://wandb.ai/worldunknown/world/runs/r4fwnt44?nw=nwuserdeepanaidu0501
+  * Wordle with 2 lie (Fibble2): https://wandb.ai/worldunknown/world/runs/x162b2ga?nw=nwuserdeepanaidu0501
+  * wordle with 3 lie (Fibble3): https://wandb.ai/worldunknown/world/runs/xylquk0r?nw=nwuserdeepanaidu0501
+  * Wordle with 4 lie (Fibble4): https://wandb.ai/worldunknown/world/runs/v0zwd0bm?nw=nwuserdeepanaidu0501
+  * Wordle with 5 lie(Fibble5): https://wandb.ai/worldunknown/world/runs/ypankmfa?nw=nwuserdeepanaidu0501
 
 * The answers.txt and guesses.txt files serve different purposes:
   * answers.txt: This file contains the list of possible secret words that the game environment selects from. In the given implementation, the environment picks one secret word from a predefined list of 2,315 words to be guessed by the agent.
