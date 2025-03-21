@@ -45,9 +45,17 @@ python wordle_Rlearning.py
 * The training process involves exploration-exploitation trade-offs controlled by an epsilon decay strategy.
 * The model is trained for 9 million episodes with experience replay.
 * The training progress is logged using Weights & Biases (WandB). Below are the links for the wandb.
-  *  Wordle- https://wandb.ai/worldunknown/world/runs/52fpv1be?workspace=user-deepanaidu0501
+  *  Wordle: https://wandb.ai/worldunknown/world/runs/52fpv1be?workspace=user-deepanaidu0501
   *  Wordle with 1 lie (Fibble1): https://wandb.ai/worldunknown/world/runs/r4fwnt44?workspace=user-deepanaidu0501
   * Wordle with 2 lie (Fibble2): https://wandb.ai/worldunknown/world/runs/x162b2ga?workspace=user-deepanaidu0501
   * wordle with 3 lie (Fibble3): https://wandb.ai/worldunknown/world/runs/xylquk0r?workspace=user-deepanaidu0501
   * Wordle with 4 lie (Fibble4): https://wandb.ai/worldunknown/world/runs/v0zwd0bm?workspace=user-deepanaidu0501
   * Wordle with 5 lie(Fibble5): https://wandb.ai/worldunknown/world/runs/ypankmfa?workspace=user-deepanaidu0501
+
+### Results
+Test Win Rate
+The following graph compares the test and train win rates of various models over time:
+![W B Chart 3_21_2025, 3_35_20 PM](https://github.com/user-attachments/assets/092fc0a2-bcc5-4188-8b6f-172958a40ea6)
+![W B Chart 3_21_2025, 3_35_57 PM](https://github.com/user-attachments/assets/5cf5d16a-f782-4556-8ffa-15988a226330)
+
+
