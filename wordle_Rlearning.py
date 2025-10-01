@@ -1605,7 +1605,7 @@ class Agent():
         self.qnetwork_target.fine_tune()
 
 import wandb
-wandb.login(key='1c94f4c65cb9600081bb0cfe097063f43e92dd58') #Enter your API Key
+wandb.login(key='Enter your wandb API key') #Enter your API Key
 
 import pandas as pd
 from tqdm.notebook import tqdm
@@ -2207,3 +2207,4 @@ exp_with_action(
 )
 
 wandb.finish()
+
